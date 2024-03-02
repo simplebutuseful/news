@@ -19,5 +19,7 @@ function create(){
 	document.getElementById("title").style.color = document.getElementById("myColor").value;
 	document.getElementById("title").style.backgroundColor = document.getElementById("myBgColor").value;
 	document.getElementById("output").style.backgroundColor = document.getElementById("myBgColor").value;
+	//set image
+	document.getElementById("image").src = URL.createObjectURL(document.getElementById("myImage").files[0]);
 }
 
