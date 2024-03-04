@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Lang</title>
+    <title>NEWS</title>
     <link rel="manifest" href="/news/manifest.json">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -22,7 +22,7 @@ Nav text color:
 <input type="color" value="#ffffff" id="myNavColor">
 <br>
 Nav background color:
-<input type="color" value="#ee0000" id="myNavBgColor">
+<input type="color" value="#5050b0" id="myNavBgColor">
 <br>
 Text color:
 <input type="color" value="#000000" id="myColor">
@@ -34,34 +34,109 @@ Decoration color:
 <input type="color" value="#ffffff" id="myDecorColor">
 <br>
 Nav:
-<input type="text" id="myNav">
+<textarea type="text" id="myNav" value="">
+News &raquo; Facebook
+</textarea>
 <br>
 Title:
-<input type="text" id="myTitle">
+<textarea type="text" id="myTitle">
+</textarea>
 <br>
 Lead:
-<input type="text" id="myLead">
+<textarea type="text" id="myLead">
+</textarea>
 <br>
 Image:
 <input type="file" id="myImage">
+<br>
+Nav font family:
+<select id="myNavFontFamily" >
+	<option value="sans">sans</option>
+	<option value="times">times</option>
+	<option value="palatino">palatino</option>
+	<option value="georgia">georgia</option>
+	<option value="monospace">monospace</option>
+	<option value="courier">courier</option>
+	<option value="cursive">cursive</option>
+	<option value="fantasy">fantasy</option>
+	<option value="New Century Schoolbook">NC Schoolbook</option>
+</select>
+<br>
+Title font family:
+<select id="myTitleFontFamily" >
+	<option value="palatino">palatino</option>
+	<option value="sans">sans</option>
+	<option value="times">times</option>
+	<option value="palatino">palatino</option>
+	<option value="georgia">georgia</option>
+	<option value="monospace">monospace</option>
+	<option value="courier">courier</option>
+	<option value="cursive">cursive</option>
+	<option value="fantasy">fantasy</option>
+	<option value="New Century Schoolbook">NC Schoolbook</option>
+</select>
+<br>
+Lead font family:
+<select id="myLeadFontFamily" >
+	<option value="sans">sans</option>
+	<option value="times">times</option>
+	<option value="palatino">palatino</option>
+	<option value="georgia">georgia</option>
+	<option value="monospace">monospace</option>
+	<option value="courier">courier</option>
+	<option value="cursive">cursive</option>
+	<option value="fantasy">fantasy</option>
+	<option value="New Century Schoolbook">NC Schoolbook</option>
+</select>
+<br>
+Nav font size:
+<input type="text" value="1em" id="myNavFontSize" >
+<br>
+Title font size:
+<input type="text" value="2em" id="myTitleFontSize" >
+<br>
+Lead font size:
+<input type="text" value="1em" id="myLeadFontSize" >
+<br>
+Nav font weight:
+<input type="text" value="100" id="myNavFontWeight" >
+<br>
+Title font weight:
+<input type="text" value="800" id="myTitleFontWeight" >
+<br>
+Lead font weight:
+<input type="text" value="400" id="myLeadFontWeight" >
 
+<br>
 <button class="" type="button" onclick="create()">Create</button>
+
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
 
 <div id="output" style="padding:0; margin:0;width:100%;">
-<div id="nav" style="font-family:sans;padding:10px;">
+<div id="nav" style="padding:10px;padding-left:20px;">
 </div>
 
-<div id="title" style="font-family:palatino;padding:10px;font-weight:800;font-size:2em;">
+<div id="title" style="padding:10px;padding-left:20px;">
 </div>
 
-<div id="lead" style="display:inline-block;height:3em;position:relative;right:0px;font-family:sans;padding:10px;">
+<div id="lead" style="padding:10px;padding-left:20px;">
 </div>
 
 <img src="" id="image" style="width:100%;margin:auto;">
 </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 </body>
 </html>
